@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8325AB961DB90A80003C036B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325AB951DB90A80003C036B /* CollectionViewCell.swift */; };
+		8325AB9A1DB992CE003C036B /* ReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325AB991DB992CE003C036B /* ReadyView.swift */; };
+		833D77E41DB66C5F0048C112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D77E31DB66C5F0048C112 /* AppDelegate.swift */; };
+		833D77EB1DB66C5F0048C112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833D77E91DB66C5F0048C112 /* Main.storyboard */; };
+		833D77ED1DB66C5F0048C112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833D77EC1DB66C5F0048C112 /* Assets.xcassets */; };
+		833D77F01DB66C5F0048C112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833D77EE1DB66C5F0048C112 /* LaunchScreen.storyboard */; };
+		833D77FB1DB66C5F0048C112 /* Haroz_ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D77FA1DB66C5F0048C112 /* Haroz_ExperimentTests.swift */; };
+		833D78061DB66C5F0048C112 /* Haroz_ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D78051DB66C5F0048C112 /* Haroz_ExperimentUITests.swift */; };
+		833D78141DB6727C0048C112 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D78131DB6727C0048C112 /* MainViewController.swift */; };
+		839B1DBD1DBBA48B00C3449F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B1DBC1DBBA48B00C3449F /* QuartzCore.framework */; };
+		83A7F8101DBE2F2300F9D6BF /* GroupMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7F80F1DBE2F2300F9D6BF /* GroupMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		833D77F71DB66C5F0048C112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D77D81DB66C5F0048C112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833D77DF1DB66C5F0048C112;
+			remoteInfo = "Haroz Experiment";
+		};
+		833D78021DB66C5F0048C112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D77D81DB66C5F0048C112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833D77DF1DB66C5F0048C112;
+			remoteInfo = "Haroz Experiment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8325AB951DB90A80003C036B /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8325AB991DB992CE003C036B /* ReadyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyView.swift; sourceTree = "<group>"; };
+		833D77E01DB66C5F0048C112 /* Haroz Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haroz Experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		833D77E31DB66C5F0048C112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		833D77EA1DB66C5F0048C112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		833D77EC1DB66C5F0048C112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833D77EF1DB66C5F0048C112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		833D77F11DB66C5F0048C112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D77F61DB66C5F0048C112 /* Haroz ExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haroz ExperimentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		833D77FA1DB66C5F0048C112 /* Haroz_ExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haroz_ExperimentTests.swift; sourceTree = "<group>"; };
+		833D77FC1DB66C5F0048C112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D78011DB66C5F0048C112 /* Haroz ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haroz ExperimentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		833D78051DB66C5F0048C112 /* Haroz_ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haroz_ExperimentUITests.swift; sourceTree = "<group>"; };
+		833D78071DB66C5F0048C112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D78131DB6727C0048C112 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		839B1DBC1DBBA48B00C3449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83A7F80F1DBE2F2300F9D6BF /* GroupMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833D77DD1DB66C5F0048C112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839B1DBD1DBBA48B00C3449F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833D77F31DB66C5F0048C112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833D77FE1DB66C5F0048C112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833D77D71DB66C5F0048C112 = {
+			isa = PBXGroup;
+			children = (
+				833D77E21DB66C5F0048C112 /* Haroz Experiment */,
+				833D77F91DB66C5F0048C112 /* Haroz ExperimentTests */,
+				833D78041DB66C5F0048C112 /* Haroz ExperimentUITests */,
+				833D77E11DB66C5F0048C112 /* Products */,
+				839B1DBB1DBBA48B00C3449F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		833D77E11DB66C5F0048C112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833D77E01DB66C5F0048C112 /* Haroz Experiment.app */,
+				833D77F61DB66C5F0048C112 /* Haroz ExperimentTests.xctest */,
+				833D78011DB66C5F0048C112 /* Haroz ExperimentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833D77E21DB66C5F0048C112 /* Haroz Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				833D77E31DB66C5F0048C112 /* AppDelegate.swift */,
+				833D78131DB6727C0048C112 /* MainViewController.swift */,
+				83A7F80F1DBE2F2300F9D6BF /* GroupMap.swift */,
+				833D77E91DB66C5F0048C112 /* Main.storyboard */,
+				8325AB991DB992CE003C036B /* ReadyView.swift */,
+				8325AB951DB90A80003C036B /* CollectionViewCell.swift */,
+				833D77EC1DB66C5F0048C112 /* Assets.xcassets */,
+				833D77EE1DB66C5F0048C112 /* LaunchScreen.storyboard */,
+				833D77F11DB66C5F0048C112 /* Info.plist */,
+			);
+			path = "Haroz Experiment";
+			sourceTree = "<group>";
+		};
+		833D77F91DB66C5F0048C112 /* Haroz ExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				833D77FA1DB66C5F0048C112 /* Haroz_ExperimentTests.swift */,
+				833D77FC1DB66C5F0048C112 /* Info.plist */,
+			);
+			path = "Haroz ExperimentTests";
+			sourceTree = "<group>";
+		};
+		833D78041DB66C5F0048C112 /* Haroz ExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				833D78051DB66C5F0048C112 /* Haroz_ExperimentUITests.swift */,
+				833D78071DB66C5F0048C112 /* Info.plist */,
+			);
+			path = "Haroz ExperimentUITests";
+			sourceTree = "<group>";
+		};
+		839B1DBB1DBBA48B00C3449F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839B1DBC1DBBA48B00C3449F /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833D77DF1DB66C5F0048C112 /* Haroz Experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833D780A1DB66C5F0048C112 /* Build configuration list for PBXNativeTarget "Haroz Experiment" */;
+			buildPhases = (
+				833D77DC1DB66C5F0048C112 /* Sources */,
+				833D77DD1DB66C5F0048C112 /* Frameworks */,
+				833D77DE1DB66C5F0048C112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haroz Experiment";
+			productName = "Haroz Experiment";
+			productReference = 833D77E01DB66C5F0048C112 /* Haroz Experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		833D77F51DB66C5F0048C112 /* Haroz ExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833D780D1DB66C5F0048C112 /* Build configuration list for PBXNativeTarget "Haroz ExperimentTests" */;
+			buildPhases = (
+				833D77F21DB66C5F0048C112 /* Sources */,
+				833D77F31DB66C5F0048C112 /* Frameworks */,
+				833D77F41DB66C5F0048C112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833D77F81DB66C5F0048C112 /* PBXTargetDependency */,
+			);
+			name = "Haroz ExperimentTests";
+			productName = "Haroz ExperimentTests";
+			productReference = 833D77F61DB66C5F0048C112 /* Haroz ExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		833D78001DB66C5F0048C112 /* Haroz ExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833D78101DB66C5F0048C112 /* Build configuration list for PBXNativeTarget "Haroz ExperimentUITests" */;
+			buildPhases = (
+				833D77FD1DB66C5F0048C112 /* Sources */,
+				833D77FE1DB66C5F0048C112 /* Frameworks */,
+				833D77FF1DB66C5F0048C112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833D78031DB66C5F0048C112 /* PBXTargetDependency */,
+			);
+			name = "Haroz ExperimentUITests";
+			productName = "Haroz ExperimentUITests";
+			productReference = 833D78011DB66C5F0048C112 /* Haroz ExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833D77D81DB66C5F0048C112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Engyokun;
+				TargetAttributes = {
+					833D77DF1DB66C5F0048C112 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S9FU85US7T;
+						ProvisioningStyle = Automatic;
+					};
+					833D77F51DB66C5F0048C112 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 833D77DF1DB66C5F0048C112;
+					};
+					833D78001DB66C5F0048C112 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 833D77DF1DB66C5F0048C112;
+					};
+				};
+			};
+			buildConfigurationList = 833D77DB1DB66C5F0048C112 /* Build configuration list for PBXProject "Haroz Experiment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 833D77D71DB66C5F0048C112;
+			productRefGroup = 833D77E11DB66C5F0048C112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833D77DF1DB66C5F0048C112 /* Haroz Experiment */,
+				833D77F51DB66C5F0048C112 /* Haroz ExperimentTests */,
+				833D78001DB66C5F0048C112 /* Haroz ExperimentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833D77DE1DB66C5F0048C112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833D77F01DB66C5F0048C112 /* LaunchScreen.storyboard in Resources */,
+				833D77ED1DB66C5F0048C112 /* Assets.xcassets in Resources */,
+				833D77EB1DB66C5F0048C112 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833D77F41DB66C5F0048C112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833D77FF1DB66C5F0048C112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833D77DC1DB66C5F0048C112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833D77E41DB66C5F0048C112 /* AppDelegate.swift in Sources */,
+				833D78141DB6727C0048C112 /* MainViewController.swift in Sources */,
+				83A7F8101DBE2F2300F9D6BF /* GroupMap.swift in Sources */,
+				8325AB9A1DB992CE003C036B /* ReadyView.swift in Sources */,
+				8325AB961DB90A80003C036B /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833D77F21DB66C5F0048C112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833D77FB1DB66C5F0048C112 /* Haroz_ExperimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833D77FD1DB66C5F0048C112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833D78061DB66C5F0048C112 /* Haroz_ExperimentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		833D77F81DB66C5F0048C112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833D77DF1DB66C5F0048C112 /* Haroz Experiment */;
+			targetProxy = 833D77F71DB66C5F0048C112 /* PBXContainerItemProxy */;
+		};
+		833D78031DB66C5F0048C112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833D77DF1DB66C5F0048C112 /* Haroz Experiment */;
+			targetProxy = 833D78021DB66C5F0048C112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		833D77E91DB66C5F0048C112 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833D77EA1DB66C5F0048C112 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		833D77EE1DB66C5F0048C112 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833D77EF1DB66C5F0048C112 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		833D78081DB66C5F0048C112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		833D78091DB66C5F0048C112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		833D780B1DB66C5F0048C112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S9FU85US7T;
+				INFOPLIST_FILE = "Haroz Experiment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enkyokun.Haroz-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		833D780C1DB66C5F0048C112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S9FU85US7T;
+				INFOPLIST_FILE = "Haroz Experiment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enkyokun.Haroz-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		833D780E1DB66C5F0048C112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Haroz ExperimentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enkyokun.Haroz-ExperimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haroz Experiment.app/Haroz Experiment";
+			};
+			name = Debug;
+		};
+		833D780F1DB66C5F0048C112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Haroz ExperimentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enkyokun.Haroz-ExperimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haroz Experiment.app/Haroz Experiment";
+			};
+			name = Release;
+		};
+		833D78111DB66C5F0048C112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Haroz ExperimentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enkyokun.Haroz-ExperimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Haroz Experiment";
+			};
+			name = Debug;
+		};
+		833D78121DB66C5F0048C112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Haroz ExperimentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enkyokun.Haroz-ExperimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Haroz Experiment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833D77DB1DB66C5F0048C112 /* Build configuration list for PBXProject "Haroz Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833D78081DB66C5F0048C112 /* Debug */,
+				833D78091DB66C5F0048C112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833D780A1DB66C5F0048C112 /* Build configuration list for PBXNativeTarget "Haroz Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833D780B1DB66C5F0048C112 /* Debug */,
+				833D780C1DB66C5F0048C112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833D780D1DB66C5F0048C112 /* Build configuration list for PBXNativeTarget "Haroz ExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833D780E1DB66C5F0048C112 /* Debug */,
+				833D780F1DB66C5F0048C112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833D78101DB66C5F0048C112 /* Build configuration list for PBXNativeTarget "Haroz ExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833D78111DB66C5F0048C112 /* Debug */,
+				833D78121DB66C5F0048C112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833D77D81DB66C5F0048C112 /* Project object */;
+}
